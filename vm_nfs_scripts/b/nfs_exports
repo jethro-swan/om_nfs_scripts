@@ -1,0 +1,7 @@
+
+/srv/nfs4			192.168.1.0/24(rw,sync,no_subtree_check,crossmnt,fsid=0)
+/srv/nfs4/openmoney-api 	192.168.1.0/24(rw,sync,no_subtree_check)
+/srv/nfs4/openmoney-network 	192.168.1.0/24(rw,sync,no_subtree_check)
+/srv/nfs4/openmoney-gift-api 	192.168.1.0/24(rw,sync,no_subtree_check) 
+/srv/nfs4/openmoney-gift 	192.168.1.0/24(rw,sync,no_subtree_check)
+

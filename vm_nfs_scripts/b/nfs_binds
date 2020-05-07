@@ -1,0 +1,7 @@
+
+# NFS binds
+/home/om/openmoney-api		/srv/nfs4/openmoney-api    	none    bind    0       0
+/home/om/openmoney-network	/srv/nfs4/openmoney-network    	none    bind    0       0
+/home/om/openmoney-gift-api	/srv/nfs4/openmoney-gift-api    none    bind    0       0
+/home/om/openmoney-gift		/srv/nfs4/openmoney-gift	none	bind	0	0
+
