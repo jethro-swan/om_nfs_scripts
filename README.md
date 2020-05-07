@@ -4,9 +4,9 @@ A small collection of BASH scripts to manage NFS mounts of VM-hosted OM director
 
 These scripts are divided into two sets:
 
-### vm_nfs_scripts
+### VM NFS setup script
 
-The **vm_nfs_setup.sh** script is used to create NFS shared of the four **openmoney** directories to allow direct access from 
+The **vm_nfs_scripts/vm_nfs_setup.sh** script is used to create NFS shared of the four **openmoney** directories to allow direct access from 
 any workstation on the same subnet. (If the LAN subnet is anything other than 192.168.1.0/24 you will need to edit this file.)
 
 It is assumed that
@@ -17,8 +17,8 @@ It is assumed that
 
 (See also https://github.com/jethro-swan/openmoney-api/blob/master/docker-scripts/README.md)
 
-### workstation_nfs_scripts
+### workstation NFS setup/mount/unmount scripts
 
-The **om-dev_nfs_mount.sh** is used to mount the set of **openmoney** directories within the current working directory and, where necessary, create the mount points.
+The **workstation_nfs_scripts/om-dev_nfs_mount.sh** is used to mount the set of **openmoney** directories within the current working directory and, where necessary, create the mount points.
 
-The **om-dev_nfs_umount.sh** is used to unmount the set of **openmoney** directories within the current working directory.
+The **workstation_nfs_scripts/om-dev_nfs_umount.sh** is used to unmount the set of **openmoney** directories within the current working directory.
