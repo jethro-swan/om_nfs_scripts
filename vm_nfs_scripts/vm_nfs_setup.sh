@@ -1,5 +1,6 @@
 #!/bin/bash
-  
+
+# Identify VM IP address:
 VM_IP=$(hostname -I)
 echo $VM_IP
 
