@@ -20,10 +20,10 @@ nfs_mount()
         echo "$HERE/$1 has been created"
     fi
     # Mount VM's OM NFS share:
-    sudo mount -t nfs -o vers=4 $VM_IP:/$1 $HERE/$1
+    sudo mount -t nfs -o vers=4 $VM_IP:/$1.VM_IP $HERE/$1
 }
-nfs_mount 'openmoney-api'
-nfs_mount 'openmoney-gift'
-nfs_mount 'openmoney-gift-api'
-nfs_mount 'openmoney-network'
+nfs_mount "openmoney-api"
+nfs_mount "openmoney-gift"
+nfs_mount "openmoney-gift-api"
+nfs_mount "openmoney-network"
 
