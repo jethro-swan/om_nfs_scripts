@@ -29,3 +29,9 @@ It is assumed that
 The **workstation_nfs_scripts/om-dev_nfs_mount.sh** is used to mount the set of **openmoney** directories within the current working directory and, where necessary, create the mount points.
 
 The **workstation_nfs_scripts/om-dev_nfs_umount.sh** is used to unmount the set of **openmoney** directories within the current working directory.
+
+
+    git clone https://github.com/jethro-swan/om_nfs_scripts/
+    sudo cp om_nfs_scripts/vm_nfs_scripts/vm_nfs_setup.sh /usr/local/bin/
+    cd /path/to/working/directory/
+    vm_nfs_setup.sh <hostname of VM>
