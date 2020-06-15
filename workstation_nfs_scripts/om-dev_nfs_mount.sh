@@ -4,7 +4,7 @@ if [[ $1 =~ ^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}$ ]]; then
     VM_IP=$1
 else
     echo "$VM_IP is not a valid IPv4 address"
-    echo "Usage: setup_om-dev_nfs.sh <IP address of VM>"
+    echo "Usage: om-dev_nfs_mount.sh <IP address of VM>"
 fi     
 
 HERE=$(pwd)
