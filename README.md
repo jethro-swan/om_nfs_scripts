@@ -9,6 +9,13 @@ These scripts are divided into two sets:
 The **vm_nfs_scripts/vm_nfs_setup.sh** script is used to create NFS shared of the four **openmoney** directories to allow direct access from 
 any workstation on the same subnet. (If the LAN subnet is anything other than 192.168.1.0/24 you will need to edit this file.)
 
+    git clone https://github.com/jethro-swan/om_nfs_scripts/
+    cd
+    cp om_nfs_scripts/vm_nfs_scripts/vm_nfs_setup.sh .
+    sudo su
+    ./om_nfs_scripts/vm_nfs_scripts/vm_nfs_setup.sh
+    exit
+    
 It is assumed that
 - the Open Money components are running together within a virtual 
 - the OM code (including the Dockerized Couchbase) is isolated within a VM 
