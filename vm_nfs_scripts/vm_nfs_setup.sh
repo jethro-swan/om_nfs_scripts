@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/om
+
 # Clone the four Open Money repositories:
 git clone https://github.com/jethro-swan/openmoney-api
 git clone https://github.com/jethro-swan/openmoney-network
