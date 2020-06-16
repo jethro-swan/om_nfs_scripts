@@ -8,12 +8,6 @@ SUBNET="192.168.1.0/24"
 echo "If you are using a LAN subnet other than 192.168.1.0/24 you will have to"
 echo "edit  /etc/exports  accordingly."
 
-# Clone the four Open Money repositories:
-git clone https://github.com/jethro-swan/openmoney-api
-git clone https://github.com/jethro-swan/openmoney-network
-git clone https://github.com/jethro-swan/openmoney-gift-api
-git clone https://github.com/jethro-swan/openmoney-gift
-
 apt install nfs-kernel-server
 #cat /proc/fs/nfsd/versions
 
