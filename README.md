@@ -15,10 +15,16 @@ any workstation on the same subnet. (If the LAN subnet is anything other than 19
     sudo su
     ./om_nfs_scripts/vm_nfs_scripts/vm_nfs_setup.sh
     exit
-    
+
+This creates and exports four shares in:
+
+    /srv/nfs4/openmoney-api/
+    /srv/nfs4/openmoney-network/
+    /srv/nfs4/openmoney-gift-api/
+    /srv/nfs4/openmoney-gift/
+
 It is assumed that
-- the Open Money components are running together within a virtual 
-- the OM code (including the Dockerized Couchbase) is isolated within a VM 
+- the OM components (including the Dockerized Couchbase) are isolated within a VM 
 - the only non-root user is "om"
 - user "om" has passwordless sudo access
 
